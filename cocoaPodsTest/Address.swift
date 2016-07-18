@@ -15,6 +15,7 @@ public struct Address {
     let suite: String
     let city: String
     let zipcode: String
+    let geo: Geo
 }
 
 
@@ -24,7 +25,8 @@ extension Address: Decodable {
             street: j => "street",
             suite: j => "suite",
             city: j => "city",
-            zipcode: j => "zipcode"
+            zipcode: j => "zipcode",
+            geo: Geo.decode(j => "geo")
         )
     }
 }

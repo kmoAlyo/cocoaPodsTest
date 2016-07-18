@@ -16,7 +16,6 @@ public struct User {
     let userName: String
     let email: String
     let address: Address
-    let geo: Geo
     let phone: String
     let website: String
     let company: Company
@@ -28,10 +27,9 @@ extension User: Decodable {
         return try User(
             id: j => "id",
             name: j => "name",
-            userName: j => "userName",
+            userName: j => "username",
             email: j => "email",
             address: Address.decode(j => "address"),
-            geo: Geo.decode(j => "geo"),
             phone: j => "phone",
             website: j => "website",
             company: Company.decode(j => "company")

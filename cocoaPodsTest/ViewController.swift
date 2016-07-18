@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         let myDog = Dog()
         myDog.name = "Rex"
         myDog.age = 1
-        print("name of dog: \(myDog.name)")
+//        print("name of dog: \(myDog.name)")
         
         
         // Get the default Realm
@@ -64,12 +64,12 @@ class ViewController: UIViewController {
             .responseJSON { response in
 //                print(response)
                 if let JSON = response.result.value {
-                    print("JSON: \(JSON)")
+//                    print("JSON: \(JSON)")
                     
                     do {
                         
-                        let user = try User.decode(JSON)
-                        print("user : \(user.name)")
+                        let user = try [User].decode(JSON)
+                        print("user : \(user)")
                     } catch {
                         print(error)
                     }
