@@ -56,27 +56,27 @@ class ViewController: UIViewController {
         // End démo Realm
         
         
-        // Code démo Alamofire - BDD
-        
-        Alamofire.request(.GET, "http://jsonplaceholder.typicode.com/users")
-            .validate(statusCode: 200..<300)
-            .validate(contentType: ["application/json"])
-            .responseJSON { response in
-//                print(response)
-                if let JSON = response.result.value {
-//                    print("JSON: \(JSON)")
-                    
-                    do {
-                        
-                        let user = try [User].decode(JSON)
-                        print("user : \(user)")
-                    } catch {
-                        print(error)
-                    }
-                }
-        }
-        
-        // End démo Alamofire
+//        // Code démo Alamofire - BDD
+//        
+//        Alamofire.request(.GET, "http://jsonplaceholder.typicode.com/users")
+//            .validate(statusCode: 200..<300)
+//            .validate(contentType: ["application/json"])
+//            .responseJSON { response in
+////                print(response)
+//                if let JSON = response.result.value {
+////                    print("JSON: \(JSON)")
+//                    
+//                    do {
+//                        
+//                        let user = try [User].decode(JSON)
+////                        print("user : \(user)")
+//                    } catch {
+//                        print(error)
+//                    }
+//                }
+//        }
+//        
+//        // End démo Alamofire
 
         
     }

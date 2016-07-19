@@ -18,6 +18,9 @@
 		DC30A7F01D34DC0800DD2F45 /* cocoaPodsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30A7EF1D34DC0800DD2F45 /* cocoaPodsTestUITests.swift */; };
 		DC30A7FF1D351F4300DD2F45 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30A7FE1D351F4300DD2F45 /* Dog.swift */; };
 		DC30A8011D351FEA00DD2F45 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30A8001D351FEA00DD2F45 /* Person.swift */; };
+		DCA772B51D3D1BFE006DAD29 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA772B41D3D1BFE006DAD29 /* TableViewController.swift */; };
+		DCA772B91D3D1C2E006DAD29 /* EurekaForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA772B81D3D1C2E006DAD29 /* EurekaForm.swift */; };
+		DCA772BB1D3D1C4C006DAD29 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA772BA1D3D1C4C006DAD29 /* TableViewCell.swift */; };
 		DCBFF6C41D363E9C00FF4AD6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF6C31D363E9C00FF4AD6 /* User.swift */; };
 		DCBFF6C61D367B0400FF4AD6 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF6C51D367B0400FF4AD6 /* Address.swift */; };
 		DCBFF6C81D367B7000FF4AD6 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF6C71D367B7000FF4AD6 /* Geo.swift */; };
@@ -64,6 +67,9 @@
 		DC30A7F11D34DC0800DD2F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC30A7FE1D351F4300DD2F45 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		DC30A8001D351FEA00DD2F45 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DCA772B41D3D1BFE006DAD29 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DCA772B81D3D1C2E006DAD29 /* EurekaForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EurekaForm.swift; sourceTree = "<group>"; };
+		DCA772BA1D3D1C4C006DAD29 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		DCBFF6C31D363E9C00FF4AD6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DCBFF6C51D367B0400FF4AD6 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		DCBFF6C71D367B7000FF4AD6 /* Geo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
@@ -156,6 +162,9 @@
 				DC30A7D61D34DC0800DD2F45 /* Assets.xcassets */,
 				DC30A7D81D34DC0800DD2F45 /* LaunchScreen.storyboard */,
 				DC30A7DB1D34DC0800DD2F45 /* Info.plist */,
+				DCA772B41D3D1BFE006DAD29 /* TableViewController.swift */,
+				DCA772BA1D3D1C4C006DAD29 /* TableViewCell.swift */,
+				DCA772B81D3D1C2E006DAD29 /* EurekaForm.swift */,
 			);
 			path = cocoaPodsTest;
 			sourceTree = "<group>";
@@ -453,13 +462,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA772B91D3D1C2E006DAD29 /* EurekaForm.swift in Sources */,
 				DC30A8011D351FEA00DD2F45 /* Person.swift in Sources */,
 				DC30A7CF1D34DC0800DD2F45 /* ViewController.swift in Sources */,
 				DC30A7CD1D34DC0800DD2F45 /* AppDelegate.swift in Sources */,
 				DCBFF6C41D363E9C00FF4AD6 /* User.swift in Sources */,
 				DC30A7FF1D351F4300DD2F45 /* Dog.swift in Sources */,
+				DCA772BB1D3D1C4C006DAD29 /* TableViewCell.swift in Sources */,
 				DCBFF6C61D367B0400FF4AD6 /* Address.swift in Sources */,
 				DCBFF6C81D367B7000FF4AD6 /* Geo.swift in Sources */,
+				DCA772B51D3D1BFE006DAD29 /* TableViewController.swift in Sources */,
 				DCBFF6CA1D367D2800FF4AD6 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
